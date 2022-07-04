@@ -23,7 +23,7 @@ services:
       ADMIN_PASSWORD: 'admin'
       ADMIN_EMAIL: 'admin@localhost'
     ports:
-      - "8089:80"
+      - "80:80"
     volumes:
       - ./:/home/mediacms.io/mediacms/
     depends_on:
